@@ -1,197 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chunzheng Wang - Personal Webpage</title>
-    <style>
-        body {
-            font-family: 'Helvetica Neue', Arial, sans-serif;
-            background-color: #f4f4f9;
-            color: #333333;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #ffffff;
-            padding: 20px;
-            text-align: center;
-            border-bottom: 1px solid #eaeaea;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-            color: #333333;
-        }
-        header p {
-            margin: 5px 0 0;
-            font-size: 1.2em;
-            color: #777777;
-        }
-        header a {
-            display: inline-block;
-            margin-top: 10px;
-            font-size: 1em;
-            color: #007BFF;
-            text-decoration: none;
-        }
-        header a:hover {
-            text-decoration: underline;
-        }
-        .quote {
-            font-family: 'KaiTi', KaiTi, serif;
-            font-size: 1.5em;
-            color: #555555;
-            text-align: center;
-            margin: 20px;
-        }
-        nav {
-            background-color: #ffffff;
-            display: flex;
-            justify-content: center;
-            padding: 10px 0;
-            border-bottom: 1px solid #eaeaea;
-        }
-        nav a {
-            color: #333333;
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 1em;
-            position: relative;
-        }
-        nav a:hover {
-            color: #000000;
-        }
-        .container {
-            padding: 40px 20px;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        .section-title {
-            font-size: 2em;
-            color: #333333;
-            border-bottom: 2px solid #eaeaea;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-        }
-        .content {
-            margin-bottom: 40px;
-        }
-        .publications li, .talks li, .research li {
-            margin-bottom: 15px;
-        }
-        footer {
-            background-color: #ffffff;
-            text-align: center;
-            padding: 20px;
-            border-top: 1px solid #eaeaea;
-        }
-        footer p {
-            margin: 0;
-            font-size: 1em;
-            color: #777777;
-        }
-        a {
-            color: #007BFF;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chunzheng Wang - Personal Webpage</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <h1>Chunzheng Wang (王淳正)</h1>
-        <p>PhD Student at Fudan University</p>
-        <a href="https://github.com/ChunzhengLab" target="_blank">GitHub: ChunzhengLab</a>
-    </header>
-    <nav>
-        <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#research">Research</a>
-        <a href="#publications">Publications</a>
-        <a href="#talks">Talks</a>
-    </nav>
-    <div class="container">
-        <section id="about" class="content">
-            <h2 class="section-title">About Me</h2>
-            <p>Hello! I am Chunzheng Wang, a PhD student at Institute of Modern Physics, Fudan University (Advisors: Ma Yugang, Shou Qiye, Zhang Song). Currently, I am visiting the European Organization for Nuclear Research (CERN) for a two-year period (Advisor: Fabrizio Grosa). My research focuses on the upgrade of the ALICE ITS3 detector and phenomenological studies of chiral anomaly effects in relativistic heavy-ion collisions.</p>
-        </section>
-        <section id="education" class="content">
-            <h2 class="section-title">Education</h2>
-            <ul>
-                <li><strong>PhD Student</strong> - Fudan University</li>
-                <li><strong>Master's Degree</strong> - Shanghai Institute of Applied Physics, Chinese Academy of Sciences</li>
-                <li><strong>Bachelor's Degree</strong> - Sichuan University</li>
-                <li><strong>High school</strong> - The High School Attached to Northwest Normal University</li>
-            </ul>
-        </section>
-        <section id="research" class="content">
-            <h2 class="section-title">Research</h2>
-            <ul class="research">
-                <li>
-                    <strong>Upgrade of the ALICE ITS3 detector</strong><br>
-                     Contributions in ITS3 TDR
-                    <a href="https://cds.cern.ch/record/2890181" target="_blank">Technical Design report for the ALICE Inner Tracking System 3 - ITS3; A bent wafer-scale monolithic pixel detector</a>
-                </li>
-                <li>
-                    <strong>Phenomenological studies on chiral anomaly effects in relativistic heavy-ion collisions</strong><br>
-Established methods to separate signal and background in the measurement of chiral magnetic waves in relativistic heavy ion collision experiments using event shape selection, and to extract the true signal fraction. 
-Using this method, ALICE has for the first time experimentally extracted the fraction of the chiral magnetic wave signal. Please refer to:
-                    <a href="https://doi.org/10.1007/JHEP12%282023%29067" target="_blank">https://doi.org/10.1007/JHEP12%282023%29067</a>
-                </li>
-            </ul>
-        </section>
-        <section id="publications" class="content">
-            <h2 class="section-title">Publications</h2>
-            <ul class="publications">
-                <li>
-                    <strong>The ITS3 detector and physics reach of the LS3 ALICE Upgrade</strong><br>
-                    <em>arXiv.2409.01866</em><br>
-                    <a href="https://doi.org/10.1051/epjconf/202531607002" target="_blank">https://doi.org/10.1051/epjconf/202531607002</a>
-                </li>
-                <li>
-                    <strong>Search for anomalous chiral effects in heavy-ion collisions with ALICE</strong><br>
-                    <em>EPJ Web of Conferences</em><br>
-                    <a href="https://doi.org/10.1051/epjconf/202429604007" target="_blank">https://doi.org/10.1051/epjconf/202429604007</a>
-                </li>
-                <li>
-                    <strong>Global constraint on the magnitude of anomalous chiral effects in heavy-ion collisions</strong><br>
-                    <em>Physical Review C</em><br>
-                    <a href="https://doi.org/10.1103/PhysRevC.107.L031902" target="_blank">https://doi.org/10.1103/PhysRevC.107.L031902</a>
-                </li>
-                <li>
-                    <strong>Interpreting the charge-dependent flow and constraining the chiral magnetic wave with event shape engineering</strong><br>
-                    <em>Physics Letters B</em><br>
-                    <a href="https://doi.org/10.1016/j.physletb.2021.136580" target="_blank">https://doi.org/10.1016/j.physletb.2021.136580</a>
-                </li>
-                <li>
-                    <strong>Charge-dependent transverse momentum and its impact on the search for the chiral magnetic wave</strong><br>
-                    <em>Physical Review C</em><br>
-                    <a href="https://doi.org/10.1103/PhysRevC.103.034906" target="_blank">https://doi.org/10.1103/PhysRevC.103.034906</a>
-                </li>
-            </ul>
-        </section>
-        <section id="talks" class="content">
-            <h2 class="section-title">Talks</h2>
-            <ul class="talks">
-                <li>
-                    <strong>Search for anomalous chiral effects in heavy-ion collisions with ALICE</strong><br>
-                    Quark Matter 2023 @ Houston, USA<br>
-                    <a href="https://indico.cern.ch/event/1139644/contributions/5502913/" target="_blank">https://indico.cern.ch/event/1139644/contributions/5502913</a>
-                </li>
-                <li>
-                    <strong>The ITS3 detector and physics reach of the LS3 ALICE Upgrade</strong><br>
-                    Strangeness Quark Matter 2024 @ Strasbourg, France<br>
-                    <a href="https://indico.in2p3.fr/event/29792/contributions/137148/" target="_blank">https://indico.in2p3.fr/event/29792/contributions/137148</a>
-                </li>
-            </ul>
-        </section>
-    </div>
-    <footer>
-        <p>&copy; 2024 Chunzheng Wang. All rights reserved.</p>
-    </footer>
+  <header>
+    <h1>Chunzheng Wang (王淳正)</h1>
+    <p>PhD Student at Fudan University</p>
+    <a href="https://github.com/ChunzhengLab" target="_blank">GitHub: ChunzhengLab</a>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#research">Research</a>
+    <a href="#publications">Publications</a>
+    <a href="#talks">Talks</a>
+    <a href="#visualization">Visualization</a>
+  </nav>
+
+  <div class="container">
+    <section id="about" class="content">
+      <h2 class="section-title">About Me</h2>
+      <p>Hello! I am Chunzheng Wang, a PhD student at Institute of Modern Physics, Fudan University (Advisors: Ma Yugang, Shou Qiye, Zhang Song). Currently, I am visiting the European Organization for Nuclear Research (CERN) for a two-year period (Advisor: Fabrizio Grosa). My research focuses on the upgrade of the ALICE ITS3 detector and phenomenological studies of chiral anomaly effects in relativistic heavy-ion collisions.</p>
+    </section>
+
+    <section id="education" class="content">
+      <h2 class="section-title">Education</h2>
+      <ul>
+        <li><strong>PhD Student</strong> - Fudan University</li>
+        <li><strong>Master's Degree</strong> - Shanghai Institute of Applied Physics, Chinese Academy of Sciences</li>
+        <li><strong>Bachelor's Degree</strong> - Sichuan University</li>
+        <li><strong>High school</strong> - The High School Attached to Northwest Normal University</li>
+      </ul>
+    </section>
+
+    <section id="research" class="content">
+      <h2 class="section-title">Research</h2>
+      <ul class="research">
+        <li>
+          <strong>Upgrade of the ALICE ITS3 detector</strong><br>
+          Contributions in ITS3 TDR:
+          <a href="https://cds.cern.ch/record/2890181" target="_blank">Technical Design Report for the ALICE Inner Tracking System 3</a>
+        </li>
+        <li>
+          <strong>Phenomenological studies on chiral anomaly effects in relativistic heavy-ion collisions</strong><br>
+          Established methods to separate signal and background in the measurement of chiral magnetic waves, allowing ALICE to extract the signal fraction for the first time.
+          <a href="https://doi.org/10.1007/JHEP12%282023%29067" target="_blank">JHEP 12 (2023) 067</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="publications" class="content">
+      <h2 class="section-title">Publications</h2>
+      <ul class="publications">
+        <li>
+          <strong>The ITS3 detector and physics reach of the LS3 ALICE Upgrade</strong><br>
+          <a href="https://arxiv.org/pdf/2409.01866" target="_blank">arXiv:2409.01866</a>
+        </li>
+        <li>
+          <strong>Search for anomalous chiral effects in heavy-ion collisions with ALICE</strong><br>
+          <a href="https://doi.org/10.1051/epjconf/202429604007" target="_blank">EPJ Web of Conferences 296, 04007 (2024)</a>
+        </li>
+        <li>
+          <strong>Global constraint on the magnitude of anomalous chiral effects in heavy-ion collisions</strong><br>
+          <a href="https://doi.org/10.1103/PhysRevC.107.L031902" target="_blank">Phys.Rev.C.107.L031902</a>
+        </li>
+        <li>
+          <strong>Interpreting the charge-dependent flow and constraining the chiral magnetic wave with event shape engineering</strong><br>
+          <a href="https://doi.org/10.1016/j.physletb.2021.136580" target="_blank">physletb.2021.136580</a>
+        </li>
+        <li>
+          <strong>Charge-dependent transverse momentum and its impact on the search for the chiral magnetic wave</strong><br>
+          <a href="https://doi.org/10.1103/PhysRevC.103.034906" target="_blank">PhysRevC.103.034906</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="talks" class="content">
+      <h2 class="section-title">Talks</h2>
+      <ul class="talks">
+        <li>
+          <strong>Search for anomalous chiral effects in heavy-ion collisions with ALICE</strong><br>
+          Quark Matter 2023 @ Houston, USA<br>
+          <a href="https://indico.cern.ch/event/1139644/contributions/5502913/" target="_blank">View Talk</a>
+        </li>
+        <li>
+          <strong>The ITS3 detector and physics reach of the LS3 ALICE Upgrade</strong><br>
+          Strangeness in Quark Matter 2024 @ Strasbourg, France<br>
+          <a href="https://indico.in2p3.fr/event/29792/contributions/137148/" target="_blank">View Talk</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="visualization" class="content">
+      <h2 class="section-title">Visualization of Observations</h2>
+      <canvas id="circleCanvas" width="1000" height="500"></canvas>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Chunzheng Wang. All rights reserved.</p>
+  </footer>
+
+  <script src="deltagamma.js"></script>
 </body>
 </html>
-
